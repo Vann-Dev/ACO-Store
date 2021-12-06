@@ -1,0 +1,42 @@
+.hide {
+    margin-left: 100%;
+    width: 500%;
+}
+
+.show{
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+.slideRight{
+    animation-duration: 1s;
+    animation-name: slideRight;
+}
+
+@keyframes slideRight {
+    from {
+        margin-left: 100%;
+        width: 500%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.slideLeft{
+    animation-duration: 1s;
+    animation-name: slideLeft;
+}
+
+@keyframes slideLeft {
+    from {
+        margin-left: 0%;
+        width: 100%;
+    }
+    to {
+        margin-left: 100%;
+        width: 500%;
+    }
+}
