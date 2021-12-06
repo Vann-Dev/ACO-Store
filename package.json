@@ -18,7 +18,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "css": "npx tailwindcss -o src/index.css",
-    "cssWatch": "npx tailwindcss -o src/index.css -w"
+    "cssWatch": "npx tailwindcss -o src/index.css -w",
+    "production": "npx tailwindcss -o src/index.css && react-scripts build"
   },
   "eslintConfig": {
     "extends": [
